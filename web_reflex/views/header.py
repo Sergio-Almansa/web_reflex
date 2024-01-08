@@ -7,7 +7,7 @@ from web_reflex.styles.styles import TextColor
 def header() -> rx.Component:
     return rx.vstack(
         rx.heading(
-            "Calendario de aDEViento 2023",
+            "Página de Sergio Almansa",
             size="lg",
             padding_bottom= Size.BIG.value
         ),
@@ -25,28 +25,36 @@ def header() -> rx.Component:
             ),
             rx.vstack(
                 rx.box(
-                    rx.text("24 días, 24 regalos."),
-                    rx.text("Del 1 al 24 de diciembre."),
+                    rx.text("12 meses, 12 proyectos."),
+                    rx.text("Del 01/01 al 31/12 de 2024."),
                     class_name="nes-balloon from-left is-dark"
                 ),
                 rx.span(
-                    "Por tercer año, ¡aquí está el calendario de adviento sorpresa de nuestra ",
+                    "Por primera vez, ¡aquí está el calendario de proyectos de ",
                     rx.span(
-                        "comunidad de developers",
+                        "@sasdev",
                         color=TextColor.ACCENT.value,
                         font_size=Size.DEFAULT.value
                     ),
                     "!",
                 ),
                  rx.span(
-                    "Una actividad en la que cada día sortearé un regalo relacionado con programación y desarrollo",
-                ),               
+                    "Una actividad en la que cada mes realizaré un proyecto de Software hasta completar el año.",
+                ),
 
                 rx.span(
-                    "Su finalidad es ayudar a compartir conociemiento y fomentar el aprendizaje de la comunidad",
+                    "Esta WEB está desarrollada completamente en Python.",
+                ),
+
+                rx.span(
+                    "He usado para ello el nuevo FRAMEWORK para web (REFLEX).",
+                ),            
+
+                rx.span(
+                    "Su finalidad es poder llevar a cabo esos proyectos que hasta ahora habían quedado aparcados.",
                 ),
                 rx.link(
-                    "aDEViento 2023",
+                    "@sasdev 2024",
                     href=constants.ADEVIENTO_HASHTAG_URL,
                     is_external=True,
                     #color=TextColor.TERCIARY.value,

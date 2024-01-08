@@ -14,18 +14,18 @@ def instructions() -> rx.Component:
                 color=TextColor.ACCENT.value
             ),
             rx.span(
-                "• Del 1 al 24 de diciembre descubriré cada día un nuevo regalo en el calendario."),
-            rx.span("• Puedes participar desde cualquier parte del mundo."),
-            rx.span("• Sólo tendrás que hacer Retweet a la publicación que enlazaré desde esta web. Tu cuenta de Twitter/X tiene que ser pública."),
+                "• Del Enero a Diciembre descubriré cada día mes un nuevo proyecto en el calendario."),
+            rx.span("• Podrás ver el código del proyecto en los repos de GitHub."),
+            rx.span("• Sólo tendrás que hacer STAR al repo si te resulta interesante."),
             button(
                 "Twitter",
                 constants.TWITTER_URL
             ),
             rx.span(
-                "• Al día siguiente realizaré el sorteo de forma pública y compartiré el ganador en la web y en Twitter/X."
+                "• Se aceptan sugerencias para los proyectos..."
             ),
             rx.span(
-                "• ¡Vuelta a empezar! Publicaré un nuevo regalo y comenzará de nuevo el proceso."
+                "• ¡Los llevaré a cabo en Python!"
             ),
             class_name="nes-container is-dark with-title",
             align_items="start",

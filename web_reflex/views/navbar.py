@@ -16,7 +16,7 @@ def navbar() -> rx.Component:
                     width=Size.VERY_BIG.value,
                     height=Size.VERY_BIG.value
                 ),
-                rx.text("aDEViento 2023"),
+                rx.text("@sasdev 2024"),
                 rx.spacer(),
                 link_icon(
                     "linkedin",

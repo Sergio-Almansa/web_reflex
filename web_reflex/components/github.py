@@ -9,10 +9,10 @@ def github() -> rx.Component:
         rx.vstack(
             rx.vstack(
                 rx.span(
-                    "Proyecto"
+                    "Código Proyecto"
                 ),
                 rx.span(
-                    "en GitHub"
+                    "WEB en GitHub"
                 ),
                 align_items="start",
                 class_name="nes-balloon from-right is-dark",

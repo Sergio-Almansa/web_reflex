@@ -7,14 +7,14 @@ def footer() -> rx.Component:
     return rx.hstack(
         rx.vstack(
             rx.text(
-                "Calendario de aDEViento 2023",
+                "Calendario de Proyectos/Desafíos 2024",
                 font_size=Size.MEDIUM.value,
                 margin_bottom=Size.ZERO.value        
             ),
             rx.link(
                 "Creado con amor ",
                 rx.box(class_name="nes-icon is-small heart"),
-                " (y gracias a ti) por SASDev by Sergio Almansa",
+                " (y gracias a ti) por @sasdev by Sergio Almansa",
                 href=constants.SASDEV_URL,
                 is_external=True,
                 margin_top=Size.SMALL.value,

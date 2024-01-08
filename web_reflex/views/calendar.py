@@ -7,11 +7,11 @@ def calendar() -> rx.Component:
     return rx.vstack(
         header_text(
             "heart",
-            "Calendario de aDEViento"
+            "Calendario de Proyectos/Desafíos de 2024"
         ),
         rx.vstack(
             rx.hstack(
-                rx.text("El evento comienza en... "),
+                rx.text("El evento termina en... "),
                 rx.text(
                     id="countdown",
                     color=Color.ACCENT.value
