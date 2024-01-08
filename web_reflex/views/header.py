@@ -47,7 +47,7 @@ def header() -> rx.Component:
                 ),
 
                 rx.span(
-                    "He usado para ello el nuevo FRAMEWORK para web (REFLEX).",
+                    "He usado para ello el nuevo FRAMEWORK web (REFLEX) y la libreria NES.css.",
                 ),            
 
                 rx.span(

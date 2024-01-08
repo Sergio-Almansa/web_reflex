@@ -6,7 +6,7 @@ from web_reflex.components.header_text import header_text
 def calendar() -> rx.Component:
     return rx.vstack(
         header_text(
-            "heart",
+            "star",
             "Calendario de Proyectos/Desafíos de 2024"
         ),
         rx.vstack(
