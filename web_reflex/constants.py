@@ -1,3 +1,5 @@
+SASDEV_URL = "https://sas.dev"
+
 YOUTUBE_URL = "http://youtube.com"
 LINKEDIN_URL = "https://www.linkedin.com/in/sergio-almansa-saura-600358202"
 GITHUB_URL = "https://github.com/Sergio-Almansa"

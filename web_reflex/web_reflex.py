@@ -3,6 +3,7 @@ import web_reflex.styles.styles as styles
 from web_reflex.styles.styles import Size
 from web_reflex.views.navbar import navbar
 from web_reflex.views.header import header
+from web_reflex.views.footer import footer
 
 def index() -> rx.Component:
     return rx.box(
@@ -12,6 +13,7 @@ def index() -> rx.Component:
                 header(),
                 header(),
                 header(),
+                footer(),
                 width="100%",
                 spacing=Size.VERY_BIG.value
             )
