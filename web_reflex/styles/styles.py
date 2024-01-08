@@ -36,6 +36,15 @@ BASE_STYLE = {
 
     rx.Span: {
         "font_size": Size.MEDIUM.value
+    },
+
+    rx.Button: {
+        "margin_bottom": Size.DEFAULT.value,
+        "height": Size.BUTTON.value,
+        "color": f"{TextColor.SECONDARY.value} !important",
+        "_hover": {
+            "color": f"{TextColor.PRIMARY.value} !important",
+        }
     }
 }
 

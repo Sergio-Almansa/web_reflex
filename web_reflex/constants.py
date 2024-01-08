@@ -1,6 +1,7 @@
 SASDEV_URL = "https://sas.dev"
 
-YOUTUBE_URL = "http://youtube.com"
+YOUTUBE_URL = "https://youtube.com"
+TWITCH_URL = "https://twitch.tv"
 LINKEDIN_URL = "https://www.linkedin.com/in/sergio-almansa-saura-600358202"
 GITHUB_URL = "https://github.com/Sergio-Almansa"
 TWITTER_URL = "https://twitter.com/Almansa_Sergio"
