@@ -9,7 +9,10 @@ def navbar() -> rx.Component:
         rx.hstack(
                 rx.image(
                     src="Foto_Cuentas.jpg",
-                    alt="Icono de Reflex",
+                    alt="Avatar sasdev",
+                    border="4px",
+                    border_color=Color.SECONDARY.value,
+                    class_name="nes-avatar is-large is-rounded",
                     width=Size.VERY_BIG.value,
                     height=Size.VERY_BIG.value
                 ),

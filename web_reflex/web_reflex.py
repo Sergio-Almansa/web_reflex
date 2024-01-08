@@ -4,18 +4,23 @@ from web_reflex.styles.styles import Size
 from web_reflex.views.navbar import navbar
 from web_reflex.views.header import header
 from web_reflex.views.footer import footer
+from web_reflex.components.github import github
+from web_reflex.views.calendar import calendar
 from web_reflex.views.instructions import instructions
 from web_reflex.views.author import author
 
 def index() -> rx.Component:
     return rx.box(
+        rx.script(src="/js/snow.js"),
         navbar(),
         rx.center(
             rx.vstack(
                 header(),
                 instructions(),
                 author(),
+                calendar(),
                 footer(),
+                github(),
                 width="100%",
                 spacing=Size.VERY_BIG.value
             )

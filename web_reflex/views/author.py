@@ -27,12 +27,12 @@ def author() -> rx.Component:
             ),
             rx.vstack(
                 rx.span(
-                    f"Soy ingeniero de software desde hace más de {_experience()} años."
+                    f"Soy programador y analista de datos desde hace más de {_experience()} años."
                 ),
                 rx.span(
-                    "En 2018 comencé a divulgar contenido sobre programación y desarrollo de software en redes sociales como ",
+                    "En 2019 comencé a programar y desarrollar software como ",
                     rx.span(
-                        "@mouredev",
+                        "@sasdev",
                         color=TextColor.ACCENT.value,
                         font_size=Size.DEFAULT.value
                     ),

@@ -1,7 +1,7 @@
 import reflex as rx
 import web_reflex.styles.styles as styles
 import web_reflex.constants as constants
-from web_reflex.styles.styles import Size
+from web_reflex.styles.styles import Size, Color
 from web_reflex.styles.styles import TextColor
 
 def header() -> rx.Component:
@@ -12,11 +12,14 @@ def header() -> rx.Component:
             padding_bottom= Size.BIG.value
         ),
         rx.flex(
-            rx.image(
+            rx.avatar(
                 src="Foto_Cuentas.jpg",
-                alt="Avatar Sergio Almansa",
-                width="8em",
-                height="8em",
+                alt="Avatar sasdev",
+                border="4px",
+                border_color=Color.SECONDARY.value,
+                class_name="nes-avatar is-large is-rounded",
+                width=Size.VERY_BIG.value,
+                height=Size.VERY_BIG.value,
                 margin_right= Size.BIG.value
 
             ),
