@@ -14,7 +14,7 @@ def instructions() -> rx.Component:
                 color=TextColor.ACCENT.value
             ),
             rx.span(
-                "• Del Enero a Diciembre descubriré cada día mes un nuevo proyecto en el calendario."),
+                "• Del Enero a Diciembre descubriré cada mes, un nuevo proyecto en el calendario."),
             rx.span("• Podrás ver el código del proyecto en los repos de GitHub."),
             rx.span("• Sólo tendrás que hacer STAR al repo si te resulta interesante."),
             button(

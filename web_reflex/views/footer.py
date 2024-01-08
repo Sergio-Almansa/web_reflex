@@ -14,7 +14,7 @@ def footer() -> rx.Component:
             rx.link(
                 "Creado con amor ",
                 rx.box(class_name="nes-icon is-small heart"),
-                " (y gracias a ti) por @sasdev by Sergio Almansa",
+                " por @sasdev by Sergio Almansa",
                 href=constants.SASDEV_URL,
                 is_external=True,
                 margin_top=Size.SMALL.value,

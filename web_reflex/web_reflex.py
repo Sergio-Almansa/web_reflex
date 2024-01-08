@@ -37,8 +37,8 @@ app = rx.App(
 
 app.add_page(
     index,
-    title="Calendario de aDEViento 2023",
-    description="Página WEB del calendario de aDEViento 2023"
+    title="@sasdev 2024",
+    description="Página WEB de Sergio Almansa"
 
 )
 
